@@ -1,0 +1,147 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0%;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 2% 0;
+}
+/* navbar styles start  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* navbar styles end */
+
+.navbar__logo {
+  width: 10%;
+}
+
+.navbar__list {
+  display: flex;
+  list-style-type: none;
+  width: 30%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  font-size: 18px;
+}
+
+.list__item > a {
+  text-decoration: none;
+  color: white;
+  transition: 0.8s;
+}
+
+.list__item > a {
+  text-emphasis: none;
+  color: color rgba(255, 255, 255, 0.7);
+}
+
+.navbar__input {
+  width: 15%;
+  height: 28px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.navbar__btn_burger {
+  display: none;
+}
+
+/* header style start */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.header__title {
+  position: absolute;
+  width: 760px;
+  height: 144px;
+  left: 340px;
+  top: 252px;
+
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  margin: 0px;
+}
+.header__block_left {
+  width: 40%;
+}
+
+.header__block_left {
+  font-size: 66px;
+  width: 45px;
+  display: flex;
+}
+
+.header__desc_left {
+  position: absolute;
+  width: 505px;
+  height: 48px;
+  left: 467px;
+  top: 420px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+}
+
+.header__block_right {
+  position: absolute;
+  width: 920px;
+  height: 654.29px;
+  left: 260px;
+  top: 592px;
+}
+
+.btn__icon {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  line-height: normal;
+}
+
+/* footer styles start */
+footer {
+  display: flex;
+  flex: start;
+  flex: end;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__logo {
+  width: 14%;
+  height: 40px;
+}
+
+.footer__list {
+  display: flex;
+
+  list-style-type: none;
+  width: 30%;
+  justify-content: space-between;
+}
+/* footer styles end */
